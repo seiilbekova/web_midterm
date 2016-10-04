@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Lora-Regular.ttf";
+  src: url(../fonts/Lora-Regulat.ttf); }
+@font-face {
+  font-family: 'Lora-Bold.ttf';
+  src: url(../fonts/Lora-Bold.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  height: 80px;
+  text-align: center;
+  background-color: #444850; }
+  header menu {
+    height: 80px; }
+    header menu a {
+      line-height: 80px;
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-right: 30px;
+      font-family: "Lora-Regular.ttf"; }
+      header menu a:hover {
+        color: #18BB9A;
+        transition-color: color;
+        transition-timing-function: cubic-bezier(0.9, -0.09, 0.77, 0.96);
+        transition-duration: 0.4; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start; }
+
+.flex-left {
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Lora-Regular.ttf";
+  font-size: 24px;
+  background-color: #FAF2F4; }
+
+h1 {
+  margin: 30px;
+  font-family: "Lora-Bold.ttf"; }
+
+h2 {
+  font-family: "Lora-Bold.ttf"; }
+
+.description {
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 20px; }
+
+.img_flex-left {
+  width: 700px;
+  margin-bottom: 20px; }
+
+.flex-right {
+  width: 600px;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #18BB9A; }
+  .flex-right a {
+    line-height: 80px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: "Lora-Regular.ttf";
+    padding-left: 15px; }
+    .flex-right a:hover {
+      color: #444850;
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8); }
+
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #C13434;
+  text-align: center;
+  padding: 60px;
+  font-family: "Lora-Regular.ttf";
+  font-size: 24px;
+  color: white; }
+
+.img_flex-footer {
+  width: 50px;
+  padding-left: 20px; }
+
+/*# sourceMappingURL=style.css.map */
